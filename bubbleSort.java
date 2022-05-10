@@ -38,7 +38,7 @@ public class bubbleSort {
                     array[i] = array[i + 1];
                     array[i + 1] = temp;
 
-                    // atleast Swap has done, Set flag = 1
+                    // atleast one Swap has been done, Set flag = 1
                     flag = 1;
                 }
             }
